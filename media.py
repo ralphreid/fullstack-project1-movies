@@ -1,7 +1,5 @@
 import webbrowser
 
-__author__ = 'ralph'
-
 
 class Movie():
     """ This class provides a way to store movie related

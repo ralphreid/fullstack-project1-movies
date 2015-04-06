@@ -1,7 +1,6 @@
+#! python 2.7.9
+
 import fresh_tomatoes
-
-__author__ = 'ralph'
-
 import media
 
 
