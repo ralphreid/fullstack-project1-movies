@@ -4,7 +4,7 @@ import fresh_tomatoes
 import media
 
 
-
+# Create movie object for each movie
 toy_story = media.Movie("Toy Story",
                         "A story of a boy and his toys that come to life",
                         "http://upload.wikimedia.org/wikipedia/en/1/13/Toy_Story.jpg",
@@ -45,5 +45,7 @@ hunger_games = media.Movie(
     "https://www.youtube.com/watch?v=vwBbrngafl0"
 )
 
+# Add movies to a list named movies
 movies = [toy_story, top_gun, avatar, ratatouille, midnight_in_paris, hunger_games]
+# Generate HTML page for the list of movies
 fresh_tomatoes.open_movies_page(movies)
